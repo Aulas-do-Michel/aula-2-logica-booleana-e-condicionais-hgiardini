@@ -55,3 +55,12 @@ Resposta:
 Não
 
 """
+Cromossomo=int(input("Digite o cromossomo:chr"))
+Posicao=int(input("Digite a posição: "))
+Genomaref=int(input("Digite o genoma de referência:hg"))
+
+
+if (Genomaref == 19 and Cromossomo == 17 and Posicao >= 41196312 and Posicao <= 41277500) or (Genomaref == 38 and Cromossomo == 17 and Posicao >= 43044295 and Posicao <= 43125483):
+    print ("Sim")
+else: 
+    print ("Não")
