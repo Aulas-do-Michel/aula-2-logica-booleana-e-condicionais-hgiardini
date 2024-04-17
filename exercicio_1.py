@@ -17,7 +17,7 @@ Digite um número:
 
 Dica: Lembre do comando de resto da divisão inteira!
 """
-Numerodousuario=int(input("Digite um numero:"))
+Numerodousuario=int(input("Digite um número:"))
 
 if Numerodousuario % 2 == 0:
     print("Par")
