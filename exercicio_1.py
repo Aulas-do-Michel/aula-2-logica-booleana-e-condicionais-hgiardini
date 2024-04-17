@@ -23,4 +23,4 @@ if Numerodousuario % 2 == 0:
     print("Par")
 
 if not Numerodousuario % 2 == 0:
-    print("Impar")
+    print("Ímpar")
