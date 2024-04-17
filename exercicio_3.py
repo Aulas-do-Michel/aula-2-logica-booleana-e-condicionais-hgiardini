@@ -63,3 +63,4 @@ if (Genomaref == 19 and Cromossomo == 17 and Posicao >= 41196312 and Posicao <= 
     print ("Sim")
 else: 
     print ("Não")
+    
