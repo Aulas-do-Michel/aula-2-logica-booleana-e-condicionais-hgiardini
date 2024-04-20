@@ -54,18 +54,12 @@ Digite o genoma de referência: hg38
 Resposta:
 Não
 """
-
-Cromossomo=int(input("Digite o cromossomo:chr"))
+Cromossomo=input("Digite o cromossomo:")
 Posicao=int(input("Digite a posição: "))
-Genomaref=int(input("Digite o genoma de referência:hg"))
+Genomaref=input("Digite o genoma de referência:")
 
-if (Genomaref == 19 and Cromossomo == 17 and Posicao >= 41196312 and Posicao <= 41277500) or (Genomaref == 38 and Cromossomo == 17 and Posicao >= 43044295 and Posicao <= 43125483):
+if (Genomaref == "hg19" and Cromossomo == "chr17" and Posicao >= 41196312 and Posicao <= 41277500) or (Genomaref == 38 and Cromossomo == 17 and Posicao >= 43044295 and Posicao <= 43125483):
     print ("Sim")
 else: 
     print ("Não")
 
-
-if (Genomaref == 19 and Cromossomo == 17 and Posicao >= 41196312 and Posicao <= 41277500) or (Genomaref == 38 and Cromossomo == 17 and Posicao >= 43044295 and Posicao <= 43125483):
-    print ("Sim")
-else: 
-    print ("Não")
