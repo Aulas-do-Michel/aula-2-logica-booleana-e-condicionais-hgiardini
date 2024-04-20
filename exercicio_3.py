@@ -53,6 +53,7 @@ Digite o genoma de referência: hg38
 
 Resposta:
 Não
+"""
 
 Cromossomo=int(input("Digite o cromossomo:chr"))
 Posicao=int(input("Digite a posição: "))
