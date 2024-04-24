@@ -55,12 +55,12 @@ Não temos essa moeda em caixa.
 Destino=(str(input("Qual país você vai viajar? ")))
 if Destino == "Estados Unidos":
    Valor_a_converter = (float(input("Quantos reais você quer converter? ")))
-   print((float(Valor_a_converter / 5)))
-if Destino == "Argentina":
+   print((float(Valor_a_converter / 5)),"USD")
+elif Destino == "Argentina":
    Valor_a_converter = (float(input("Quantos reais você quer converter? ")))
-   print((float(Valor_a_converter*180)))
-if Destino == "Japão": 
+   print((float(Valor_a_converter*180)),"ARS")
+elif Destino == "Japão": 
    Valor_a_converter = (float(input("Quantos reais você quer converter? ")))
-   print((float(Valor_a_converter*30)))
+   print((float(Valor_a_converter*30)), "JPY")
 else:
-    print("Não temos essa moeda em caixa.")
+   print("Não temos essa moeda em caixa.")
